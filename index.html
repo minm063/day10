@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div id="weatherInfo">
+                <h3></h3>
+                <h3></h3>
+            </div>
+            <div class="userResult">
+            </div>
+            <div>
+                <h3 class="YMD"></h3>
+            </div>
+        </div>
+        <div class="info">
+            <h1>The Time Now</h1>
+            <h1 class="clock"></h1>
+        </div>
+        <div class="user">
+            <form id="userName">
+                <input type="text" autocomplete="off" placeholder="사용자 이름을 입력하세요" required>
+            </form>
+        </div>
+        <div class="todo">
+            <form id="todo-form">
+                <input type="text" required>
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+</body>
+</html>

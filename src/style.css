@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: beige;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("https://source.unsplash.com/random");
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 10px;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    margin-top: 25vh;
+    margin-bottom: 15vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock {
+    font-size: 100px;
+}
+
+input {
+    font-size: 1.5em;
+    color: beige;
+    text-align: center;
+
+    box-sizing: border-box;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid beige;
+}
+
+#userName>input::placeholder {
+    color: beige;
+}
+
+.header {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+}
+
+.todo {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+span {
+    font-size: 1.2em;
+    margin: 5px;
+}
+button {
+    float: right;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+h3 {
+    font-size: 1.5em;
+}
+li {
+    font-size: 1.3em;
+}
